@@ -25,6 +25,8 @@ footer {
     flex-wrap: wrap;
 }
 
+
+
 .img-container {
     width: calc(100% / 7 - 20px);
     background-color: red;
