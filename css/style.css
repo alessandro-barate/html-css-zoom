@@ -3,3 +3,29 @@
     margin: 0;
     box-sizing: border-box;
 }
+
+main {
+    background-color: black;
+    height: calc(100vh - 100px);
+}
+
+footer {
+    background-color: rgb(78, 78, 78);
+    height: 100px;
+}
+
+span {
+    text-align: end;
+}
+
+.d-flex {
+    display: flex;
+}
+
+.justify-center {
+    justify-content: center;
+}
+
+.space-between {
+    justify-content: space-between;
+}
