@@ -26,6 +26,13 @@ span {
     justify-content: center;
 }
 
-.space-between {
-    justify-content: space-between;
+.col-25 {
+    width: calc(100% / 4);
+    height: 100px;
+    border: 1px solid black;
+}
+
+.col-50 {
+    width: calc(100% / 4 * 2);
+    border: 1px solid black;
 }
