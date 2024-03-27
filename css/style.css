@@ -4,15 +4,20 @@
     box-sizing: border-box;
 }
 
+header {
+    height: 40px;
+    background-color: black;
+}
+
 main {
     background-color: black;
-    height: calc(100vh - 100px);
+    height: calc(100vh - 115px);
     overflow: auto;
 }
 
 footer {
-    background-color: rgb(78, 78, 78);
-    height: 100px;
+    background-color: rgb(26, 26, 26);
+    height: 75px;
 }
 
 .container {
@@ -20,11 +25,17 @@ footer {
     margin: 0 auto;
 }
 
-.row {
+.d-flex {
     display: flex;
-    flex-wrap: wrap;
 }
 
+.align-items {
+    align-items: center;
+}
+
+.wrap {
+    flex-wrap: wrap;
+}
 
 
 .img-container {
@@ -39,6 +50,7 @@ footer {
     height: 100%;
 }
 
+
 .justify-center {
     justify-content: center;
 }
@@ -50,3 +62,51 @@ footer {
 .col-50 {
     width: 50%;
 }
+
+.row {
+    width: 100%;
+    height: 75px;
+}
+
+.mic-vid, .meeting-utilities {
+    width: 100%;
+    height: 100%;
+}
+
+button {
+    display: inline-block;
+    width: 20%;
+    line-height: 20px;
+    border: none;
+    background-color: transparent;
+}
+
+i, span {
+    width: 100%;
+    color: white;
+    font-size: 10px;
+}
+
+i {
+    font-size: 20px;
+}
+
+.end-meeting {
+    height: 100%;
+    align-items: center;
+    justify-content: end;
+}
+
+.end {
+    width: 30%;
+    display: inline-block;
+    height: 40%;
+    line-height: 30px;
+    font-size: 15px;
+    color: red;
+    background-color: rgb(109, 109, 109);
+    text-align: center;
+    border-radius: 20px;
+}
+
+
